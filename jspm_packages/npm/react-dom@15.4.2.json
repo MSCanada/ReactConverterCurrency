@@ -1,0 +1,20 @@
+{
+  "main": "index.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "dist/react-dom-server.js": {
+      "cjsRequireDetection": false
+    },
+    "dist/react-dom.js": {
+      "cjsRequireDetection": false
+    }
+  }
+}

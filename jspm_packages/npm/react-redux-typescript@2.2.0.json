@@ -1,0 +1,19 @@
+{
+  "main": "es5/index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "es5/index.d.ts": {
+      "format": "esm"
+    },
+    "es6/index.d.ts": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./es5": "./es5/index.js",
+    "./es6": "./es6/index.js"
+  }
+}

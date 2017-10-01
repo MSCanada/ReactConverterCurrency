@@ -1,0 +1,10 @@
+{
+  "main": "src/browser.js",
+  "format": "cjs",
+  "map": {
+    "fs": "@empty",
+    "net": "@empty",
+    "tty": "@empty",
+    "util": "@empty"
+  }
+}

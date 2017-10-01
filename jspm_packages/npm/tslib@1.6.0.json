@@ -1,0 +1,9 @@
+{
+  "main": "tslib.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

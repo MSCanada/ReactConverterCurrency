@@ -1,0 +1,41 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "es/*": {
+      "format": "esm"
+    },
+    "src/components/Provider.js": {
+      "format": "esm"
+    },
+    "src/connect/mapDispatchToProps.js": {
+      "format": "esm"
+    },
+    "src/connect/mapStateToProps.js": {
+      "format": "esm"
+    },
+    "src/connect/verifySubselectors.js": {
+      "format": "esm"
+    },
+    "src/connect/wrapMapToProps.js": {
+      "format": "esm"
+    },
+    "src/index.js": {
+      "format": "esm"
+    },
+    "src/utils/*": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js"
+  }
+}
